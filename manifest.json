@@ -1,0 +1,13 @@
+{
+	"name": "BetterPS",
+	"description": "Better PlayerServers!",
+	"version": "1.0",
+	"manifest_version": 3,
+	  "content_scripts": [
+		  {
+			  "matches": ["*://*.playerservers.com/*"],
+			  "js": ["extraTools.js", "main.js", "jquery.js"],
+			  "css": ["extraTools.css", "recolor.css"]
+		  }
+	  ]
+  }
