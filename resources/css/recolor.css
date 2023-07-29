@@ -1,0 +1,15 @@
+:root {
+	--hue: 0;
+  --dark-color-1: hsl(var(--hue), 25%, 12%)!important;
+  --dark-color-2: hsl(var(--hue), 27%, 6%)!important;
+  --dark-color-3: hsl(var(--hue), 15%, 12%)!important;
+  --dark-color-4: hsl(var(--hue), 25%, 15%)!important;
+  --dark-color-5: hsl(var(--hue), 0%, 19%)!important;
+  --dark-color-6: hsl(var(--hue), 18%, 16%)!important;
+  --dark-color-7: hsl(var(--hue), 0%, 27%)!important;
+  --dark-color-warning: hsl(35, 100%, 56%)!important;
+  --dark-color-success: hsl(147, 79%, 43%)!important;
+  --dark-color-danger: hsl(0, 79%, 61%)!important;
+  --dark-color-info: hsl(185, 65%, 54%)!important;
+  --dark-text-shade-1: hsl(0, 0%, 64%)!important;
+}

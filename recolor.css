@@ -1,7 +1,0 @@
-:root {
-	--root-deg: 0deg;
-	--background: hsl(var(--root-deg), 10%, 10%);
-}
-html {
-	background-color: var(--background)!important;
-}

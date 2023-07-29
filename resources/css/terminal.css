@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+	--log: #c7eb4a;
+	--warn: #c0b421;
+	--error: #c21e1e;
+	--info: #1e9fc2;
+	--debug: #37d4ff;
+	--trace: #9c1ec2;
+	--fatal: #ff0000;
+}
+.type-log {
+	color: var(--log);
+}
+.type-warn {
+	color: var(--warn);
+}
+.type-error {
+	color: var(--error);
+}
+.type-info {
+	color: var(--info);
+}
+.type-debug {
+	color: var(--debug);
+}
+.type-trace {
+	color: var(--trace);
+}
+.type-fatal {
+	color: var(--fatal);
+}
+
+.console {
+	font-family: "JetBrains Mono", monospace;
+	font-size: 14px;
+	font-weight: 900;
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000000;
+	width: 1000px;
+	height: 600px;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+}
+.console .content {
+	padding: 20px;
+	height: 100%;
+	white-space: pre-wrap;
+	overflow-y: scroll;
+}
+
+/* Console Input */
+
+.console .bottom {
+	display: grid;
+	padding: 20px;
+}
+
+.console-input {
+	height: 20px;
+	background-color: var(--info);
+	border-radius: 5px;
+	padding: 5px;
+	border: none;
+	color: #fff;
+	font-family: "JetBrains Mono", monospace;
+	outline: none;
+}

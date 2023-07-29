@@ -1,13 +1,29 @@
 {
 	"name": "BetterPS",
 	"description": "Better PlayerServers!",
-	"version": "1.0",
+	"version": "1.1",
+	"permissions": [
+		"storage"
+	],
 	"manifest_version": 3,
 	  "content_scripts": [
 		  {
-			  "matches": ["*://*.playerservers.com/*"],
-			  "js": ["extraTools.js", "main.js", "jquery.js"],
-			  "css": ["extraTools.css", "recolor.css"]
+			"matches": [
+				"*://*.playerservers.com/*"
+			],
+			"js": [
+				"resources/js/terminal.js",
+				"resources/js/jquery.js", 
+				"resources/js/extraTools.js", 
+				"resources/js/js.cookie.min.js",
+				"resources/js/main.js"
+			],
+			
+			"css": [
+				"resources/css/extraTools.css", 
+				"resources/css/recolor.css",
+				"resources/css/terminal.css"
+			]
 		  }
 	  ]
   }
