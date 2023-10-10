@@ -1,1 +1,3 @@
 # BetterPS
+
+# unsupported, not maintained
